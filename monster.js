@@ -9,7 +9,7 @@ class Monster{
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
-        this.image=loadImage("images/Monster-01.png");
+        this.image=loadImage("Monster-01.png");
        
         World.add(world, this.body);
       }
