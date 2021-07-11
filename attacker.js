@@ -8,7 +8,7 @@ class Attacker{
       this.body = Bodies.rectangle(x, y, width, height, options);
       this.width = width;
       this.height = height;
-      this.image=loadImage("images/Superhero-01.png");
+      this.image=loadImage("Superhero-01.png");
     
       World.add(world, this.body);
     }
